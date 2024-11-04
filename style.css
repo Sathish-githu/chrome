@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-right: 20px;
+   
+}
+.B{
+    border: none;
+    outline: none;
+
+}
+
+.icon1{
+    font-size: 2rem;
+    background: none;
+    
+    
+}
+.icon{
+    font-size: 2rem;
+    background: none;   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.icon:hover, .icon1:hover{
+    cursor: pointer;
+    color: orangered;
+    border-radius: 15px;
+    
+
+
+}
+.A{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+img{
+    width: 300px;
+}
+ /* #text{
+     position: relative;
+    left: 32%; 
+    top: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 30px;
+    width: 510px;
+    border-radius: 15px;
+    box-shadow: 1px 1px grey; }*/
+
+.B{
+    height: 40px;
+    width: 750px;
+    border: 1px;
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+    border-radius: 24px;
+    box-shadow: 3px 3px 5px ;
+}
+
+#text{
+    position: relative;
+    margin-left: 50px;
+    width: 600px;
+    border: none;
+    outline: none;
+    
+}
+.as-1{
+    position: absolute;
+    background-color: white;
+    /* font-size: 20px; */
+    border-radius: 24px;
+    margin-top: 3px;
+    margin-left: 6px;
+  
+}
+.as-2{
+    position: absolute;
+    background-color: white;
+    border-radius: 24px;
+    margin-left: 652px;
+    margin-top: 4px;
+}
+.as-3{
+    position: absolute;
+    background-color: white;
+    border-radius: 24px;
+    margin-left: 694px;
+    margin-top: 4px;
+}
+.C{
+    display: flex;
+    padding-top: 50px;
+    gap: 50px;
+}
+.D,.E,.F{
+    width: 90px;
+    height: 100px;
+    padding: 10px;
+
+}
+.D:hover,.E:hover,.F:hover{
+    background-color: rgba(0, 0, 0, 0.396);
+    cursor: pointer;
+
+}
+
+.app{
+    font-size: 4rem;
+}
+.app:hover{
+    color: white;
+    /* background-color: aqua; */
+}
+
+
